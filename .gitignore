@@ -1,0 +1,23 @@
+# Node
+node_modules/
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Java
+target/
+*.class
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
