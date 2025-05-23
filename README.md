@@ -60,7 +60,7 @@ roadmap/
 | Frontend    | HTML         | ✅ In Progress |
 | Frontend    | CSS          | ⏳ Planned |
 | Frontend    | JavaScript   | ⏳ Planned |
-| Backend     | Node.js      | ⏳ Planned |
+| Backend     | Node.js      | ✅ In Progress |
 | Backend     | Python/Django| ⏳ Planned |
 | Tools       | Docker       | ⏳ Planned |
 
