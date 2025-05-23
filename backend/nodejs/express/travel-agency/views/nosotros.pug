@@ -1,4 +1,32 @@
 extends ./layout/index
 
 block contenido 
-  p #{nosotros}
+  main.container.mt-5
+    .row
+      .col-md-5
+        img(src="img/nosotros.jpg", alt="Nosotros", class="img-fluid")
+      .col-md-7
+        h1 #{pagina}
+        blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lacinia lorem, non porttitor erat. 
+
+        p Aenean eget pellentesque lorem. Cras mollis commodo nulla at fermentum. Integer sagittis laoreet enim, quis tempor nibh porttitor non. Maecenas porttitor tellus non mi fermentum, sit amet vehicula diam porta. Aliquam vitae volutpat velit, id vulputate metus. Vivamus id condimentum orci. 
+
+        p Sed placerat velit non sem imperdiet pulvinar. Sed non cursus ante. Mauris sit amet nibh id sapien ullamcorper vestibulum. Quisque vestibulum fermentum nisl eget suscipit. Cras pretium aliquet elementum. Praesent id fringilla orci, sed convallis justo. Nullam quis nibh bibendum, porta justo at, dictum velit. Nunc id elementum sem, vel tincidunt libero. 
+  
+  .listado-iconos 
+    .container.mt-5.py-5.text-center 
+      .row
+        .col-md-4 
+          img(src="img/icono_seguridad.svg", alt="Icono seguridad", class="img-fluid mb-4")
+          h2.mb-4 Seguridad 
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum repellat, dignissimos dolore earum fugiat ipsa odit aut cumque cupiditate velit repellendus itaque.
+        
+        .col-md-4 
+          img(src="img/icono_destinos.svg", alt="Icono destinos", class="img-fluid mb-4")
+          h2.mb-4 Mejores destinos 
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum repellat, dignissimos dolore earum fugiat ipsa odit aut cumque cupiditate velit repellendus itaque.
+        
+        .col-md-4 
+          img(src="img/icono_precios.svg", alt="Icono precios", class="img-fluid mb-4")
+          h2.mb-4 Los mejores precios
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum repellat, dignissimos dolore earum fugiat ipsa odit aut cumque cupiditate velit repellendus itaque.
