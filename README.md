@@ -59,7 +59,7 @@ roadmap/
 | Area        | Technology    | Status        |
 |-------------|---------------|---------------|
 | Frontend    | HTML          | ✅ In Progress |
-| Frontend    | CSS           | ⏳ Planned     |
+| Frontend    | CSS           | ✅ In Progress |
 | Frontend    | JavaScript    | ✅ In Progress |
 | Backend     | Node.js       | 🟩 Completed   |
 | Backend     | PHP/Symfony   | ⏳ Planned     |
