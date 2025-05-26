@@ -20,6 +20,7 @@ roadmap/
 ├── backend/
 │   ├── nodejs/
 │   │   └── express/
+│   │       └── travel-agency/   ← Full project with MVC, Sequelize, and Pug
 │   ├── php/
 │   │   └── symfony/
 │   ├── python/
@@ -55,14 +56,19 @@ roadmap/
 
 ## 📊 Progress Tracker
 
-| Area        | Technology   | Status      |
-|-------------|--------------|-------------|
-| Frontend    | HTML         | ✅ In Progress |
-| Frontend    | CSS          | ⏳ Planned |
-| Frontend    | JavaScript   | ⏳ Planned |
-| Backend     | Node.js      | ⏳ Planned |
-| Backend     | Python/Django| ⏳ Planned |
-| Tools       | Docker       | ⏳ Planned |
+| Area        | Technology    | Status        |
+|-------------|---------------|---------------|
+| Frontend    | HTML          | ✅ In Progress |
+| Frontend    | CSS           | ⏳ Planned     |
+| Frontend    | JavaScript    | ⏳ Planned     |
+| Backend     | Node.js       | 🟩 Completed   |
+| Backend     | PHP/Symfony   | ⏳ Planned     |
+| Backend     | Python/Django | ⏳ Planned     |
+| Backend     | Java/Spring   | ⏳ Planned     |
+| Databases   | SQL/NoSQL     | ⏳ Planned     |
+| Tools       | Git           | ⏳ Planned     |
+| Tools       | Docker        | ⏳ Planned     |
+| Tools       | Linux         | ⏳ Planned     |
 
 > ✅ = In progress · ⏳ = Planned · 🟩 = Completed
 
