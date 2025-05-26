@@ -18,9 +18,12 @@ Sitio web simulado para una agencia de viajes, desarrollado como proyecto educat
 
 ## 🛠️ Tecnologías Utilizadas
 
-- **Node.js** (v22 LTS)
+- **Node.js**
 - **Express.js**
 - **Pug** (Template Engine)
+- **Sequelize** (ORM)
+- **MySQL** (Base de datos local)
+- **dotenv**
 - **Nodemon** (desarrollo en caliente)
 - HTML/CSS básico para estilos
 
@@ -31,10 +34,16 @@ Sitio web simulado para una agencia de viajes, desarrollado como proyecto educat
 ```
 travel-agency/
 ├── app.js
-├── routes/
+├── config/
+│   └── db.js
 ├── controllers/
+├── models/
+├── routes/
 ├── views/
 ├── public/
+│   ├── css/
+│   └── img/
+├── .env.example
 └── README.md
 ```
 
@@ -49,19 +58,56 @@ travel-agency/
 npm install
 ```
 
-3. Ejecuta el servidor en modo desarrollo:
+3. Crea el archivo `.env` a partir del ejemplo:
+
+```bash
+cp .env.example .env
+```
+
+4. Ejecuta el servidor en modo desarrollo:
 
 ```bash
 npm run dev
 ```
 
-4. Abre tu navegador en:
+5. Abre tu navegador en:
 
 ```
-http://localhost:4000/
+http://localhost:3000/
 ```
 
 ---
+
+## 🔐 Variables de Entorno
+
+Antes de ejecutar la aplicación, asegúrate de crear un archivo `.env` en la raíz del proyecto basado en el archivo `.env.example`. Este archivo contiene las variables necesarias para conectar a la base de datos.
+
+```env
+DB_NAME=travelAgency
+DB_USER=root
+DB_PASS=
+DB_HOST=127.0.0.1
+```
+
+---
+
+## 🧪 Base de Datos
+
+Si deseas probar la aplicación de forma completa, asegúrate de tener MySQL instalado localmente y crear la base de datos con el nombre indicado en `.env` (`travelAgency`). Puedes usar herramientas como **phpMyAdmin**, **DBeaver**, o ejecutar:
+
+```sql
+CREATE DATABASE travelAgency;
+```
+
+Sequelize se encargará de sincronizar las tablas automáticamente al iniciar la app.
+
+## 🌱 Cargar datos de prueba (seed)
+
+Para poblar la base de datos con información de ejemplo (viajes y testimoniales), ejecuta el siguiente comando:
+
+```bash
+node seed.js
+
 
 ## 📄 Licencia
 
@@ -71,4 +117,4 @@ Este proyecto es de uso educativo y personal. Puedes reutilizar la estructura o 
 
 ## ✍️ Autor
 
-Desarrollado por **Ian Scateni** como parte del roadmap de backend con Node.js.
+Desarrollado por **Ian Scateni** como parte del roadmap de backend con Node.js / express / pug.
