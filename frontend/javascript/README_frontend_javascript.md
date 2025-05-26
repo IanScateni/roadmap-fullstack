@@ -12,8 +12,8 @@ This folder contains my personal practice, notes, and experiments related to **J
 
 ```
 frontend/javascript/
-├── 01-basic-concepts/
-├── 02-exercises/
+├── Project1/
+├── Project2/
 └── README.md
 ```
 
