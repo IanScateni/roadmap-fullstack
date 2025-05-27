@@ -12,8 +12,7 @@ This folder contains my personal practice, notes, and experiments related to **R
 
 ```
 frontend/reactjs/
-├── 01-basic-concepts/
-├── 02-exercises/
+├── proyects***
 └── README.md
 ```
 
