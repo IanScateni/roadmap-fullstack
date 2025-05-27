@@ -48,8 +48,7 @@ portfolio/
 
 ## 🌍 Demo en vivo
 
-🟢 Enlace en vivo (GitHub Pages o Netlify):  
-🔗 [https://ianscateni.netlify.app](https://ianscateni.netlify.app) *(sujeto a publicación)*
+🟢 https://ianscateni.com *(sujeto a publicación)*
 
 ---
 
