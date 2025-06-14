@@ -12,20 +12,36 @@ Welcome to my personal Full Stack Developer roadmap. This repository contains pr
 roadmap/
 ├── frontend/
 │   ├── html/
+│   │   └── 01-fundamentos/   
 │   ├── css/
+│   │   └── ResponsiveCardsNoMediaQueries/
+│   │   └── botonMenu/
+│   │   └── loadingAnimation/ 
 │   ├── javascript/
+│   │   └── BuscadorJS/
+│   │   └── CarritoDeCompras/
+│   │   └── EnviarMailJS/
+│   │   └── Criptomonedas/
+│   │   └── TodoListLocalStorage/   
 │   ├── typescript/
 │   ├── reactjs/
+│   │   └── BuscadorJS/   
 │   └── vuejs/
+│   │   └── credit-card/   
 ├── backend/
 │   ├── nodejs/
+│   │   └── 01-fundamentos/
+│   │   └── 02-bases
 │   │   └── express/
-│   │       └── travel-agency/   ← Full project with MVC, Sequelize, and Pug
+│   │       └── travel-agency/   ← Full project with MVC, Sequelize, and Pug       
 │   ├── php/
+│   │   └── ejercicioCrud/  
 │   │   └── symfony/
+│   │   └── Laravel/  
 │   ├── python/
 │   │   └── django/
 │   ├── java/
+│   │   └── LaboratooryOne/   
 │   │   └── spring/
 │   ├── sql/
 │   └── nosql/
