@@ -12,20 +12,36 @@ Welcome to my personal Full Stack Developer roadmap. This repository contains pr
 roadmap/
 ├── frontend/
 │   ├── html/
+│   │   └── 01-fundamentos/   
 │   ├── css/
+│   │   └── ResponsiveCardsNoMediaQueries/
+│   │   └── botonMenu/
+│   │   └── loadingAnimation/ 
 │   ├── javascript/
+│   │   └── BuscadorJS/
+│   │   └── CarritoDeCompras/
+│   │   └── EnviarMailJS/
+│   │   └── Criptomonedas/
+│   │   └── TodoListLocalStorage/   
 │   ├── typescript/
 │   ├── reactjs/
+│   │   └── portfolio/   
 │   └── vuejs/
+│   │   └── credit-card/   
 ├── backend/
 │   ├── nodejs/
+│   │   └── 01-fundamentos/
+│   │   └── 02-bases
 │   │   └── express/
-│   │       └── travel-agency/   ← Full project with MVC, Sequelize, and Pug
+│   │       └── travel-agency/   ← Full project with MVC, Sequelize, and Pug       
 │   ├── php/
+│   │   └── ejercicioCrud/  
 │   │   └── symfony/
+│   │   └── Laravel/  
 │   ├── python/
 │   │   └── django/
 │   ├── java/
+│   │   └── LaboratooryOne/   
 │   │   └── spring/
 │   ├── sql/
 │   └── nosql/
@@ -40,7 +56,7 @@ roadmap/
 ## 🚀 Technologies & Tools
 
 - **Frontend:** HTML, CSS, JavaScript, TypeScript, ReactJS, VueJS
-- **Backend:** Node.js + Express, PHP + Symfony, Python + Django, Java + Spring
+- **Backend:** Node.js + Express, PHP + Symfony, PHP + Laravel, Python + Django, Java + Spring
 - **Databases:** SQL, NoSQL
 - **Dev Tools:** Docker, Git, Linux
 
@@ -49,8 +65,6 @@ roadmap/
 ## 🎯 Goals
 
 - Build a strong practical foundation in Full Stack development
-- Understand best practices for scalable software architecture
-- Prepare for advanced roles such as **Software Architect**
 
 ---
 
@@ -61,10 +75,11 @@ roadmap/
 | Frontend    | HTML          | ✅ In Progress |
 | Frontend    | CSS           | ✅ In Progress |
 | Frontend    | JavaScript    | ✅ In Progress |
-| Backend     | Node.js       | 🟩 Completed   |
-| Backend     | PHP/Symfony   | ⏳ Planned     |
+| Backend     | Node.js       | ✅ In Progress |
+| Backend     | PHP/Symfony   | ✅ In Progress |
+| Backend     | PHP/Laravel   | ⏳ Planned     |
 | Backend     | Python/Django | ⏳ Planned     |
-| Backend     | Java/Spring   | ⏳ Planned     |
+| Backend     | Java/Spring   | ✅ In Progress |
 | Databases   | SQL/NoSQL     | ⏳ Planned     |
 | Tools       | Git           | ⏳ Planned     |
 | Tools       | Docker        | ⏳ Planned     |
@@ -85,7 +100,7 @@ You can explore more advanced architectural projects in my companion repo:
 
 **Ian Scateni**  
 Software Engineer | Future Software Architect  
-🔗 [LinkedIn](https://linkedin.com/in/IanScateni) · 🌐 [Portfolio](https://ianscateni.com)
+🔗 [LinkedIn](https://linkedin.com/in/IanScateni) · 🌐 [Portfolio]([https://ianscateni.com](https://github.com/IanScateni))
 
 ---
 
