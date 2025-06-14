@@ -61,10 +61,10 @@ roadmap/
 | Frontend    | HTML          | ✅ In Progress |
 | Frontend    | CSS           | ✅ In Progress |
 | Frontend    | JavaScript    | ✅ In Progress |
-| Backend     | Node.js       | 🟩 Completed   |
+| Backend     | Node.js       | ✅ In Progress |
 | Backend     | PHP/Symfony   | ⏳ Planned     |
 | Backend     | Python/Django | ⏳ Planned     |
-| Backend     | Java/Spring   | ⏳ Planned     |
+| Backend     | Java/Spring   | ✅ In Progress |
 | Databases   | SQL/NoSQL     | ⏳ Planned     |
 | Tools       | Git           | ⏳ Planned     |
 | Tools       | Docker        | ⏳ Planned     |
