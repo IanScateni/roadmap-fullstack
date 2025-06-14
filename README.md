@@ -2,7 +2,7 @@
 
 Welcome to my personal Full Stack Developer roadmap. This repository contains practical exercises, code samples, and notes organized by technology area — from frontend to backend and essential development tools.
 
-> ✅ This project is part of my journey toward becoming a **Software Architect**.
+> ✅ This project is part of my journey toward becoming a **Full Stack**.
 
 ---
 
