@@ -56,7 +56,7 @@ roadmap/
 ## 🚀 Technologies & Tools
 
 - **Frontend:** HTML, CSS, JavaScript, TypeScript, ReactJS, VueJS
-- **Backend:** Node.js + Express, PHP + Symfony, Python + Django, Java + Spring
+- **Backend:** Node.js + Express, PHP + Symfony, PHP + Laravel, Python + Django, Java + Spring
 - **Databases:** SQL, NoSQL
 - **Dev Tools:** Docker, Git, Linux
 
@@ -65,8 +65,6 @@ roadmap/
 ## 🎯 Goals
 
 - Build a strong practical foundation in Full Stack development
-- Understand best practices for scalable software architecture
-- Prepare for advanced roles such as **Software Architect**
 
 ---
 
@@ -78,7 +76,8 @@ roadmap/
 | Frontend    | CSS           | ✅ In Progress |
 | Frontend    | JavaScript    | ✅ In Progress |
 | Backend     | Node.js       | ✅ In Progress |
-| Backend     | PHP/Symfony   | ⏳ Planned     |
+| Backend     | PHP/Symfony   | ✅ In Progress |
+| Backend     | PHP/Laravel   | ⏳ Planned     |
 | Backend     | Python/Django | ⏳ Planned     |
 | Backend     | Java/Spring   | ✅ In Progress |
 | Databases   | SQL/NoSQL     | ⏳ Planned     |
@@ -101,7 +100,7 @@ You can explore more advanced architectural projects in my companion repo:
 
 **Ian Scateni**  
 Software Engineer | Future Software Architect  
-🔗 [LinkedIn](https://linkedin.com/in/IanScateni) · 🌐 [Portfolio](https://ianscateni.com)
+🔗 [LinkedIn](https://linkedin.com/in/IanScateni) · 🌐 [Portfolio]([https://ianscateni.com](https://github.com/IanScateni))
 
 ---
 
