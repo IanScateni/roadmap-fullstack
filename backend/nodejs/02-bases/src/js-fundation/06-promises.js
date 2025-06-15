@@ -1,12 +1,15 @@
+const { http } = require('../plugins');
 
-const getPokemonById = ( id ) => {
+const getPokemonById = async( id ) => {
 
   const url = `https://pokeapi.co/api/v2/pokemon/${ id }`;
 
-  return fetch( url )
-    .then( ( response ) => response.json())
-    // .then( ( ) =>  { throw new Error('Pokémon no existe'); } )
-    .then( ( pokemon ) =>  pokemon.name);
+  const pokemon = await http.get(url);
+  // throw new Error('Error fetching Pokémon data');
+
+  return pokemon.name;
+
+
 }
 
 module.exports =  getPokemonById;

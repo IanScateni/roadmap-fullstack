@@ -5,7 +5,7 @@
 // const { buildMakePerson } = require('./js-fundation/05-factory');
 const getPokemon = require('./js-fundation/06-promises');
 
-getPokemon(150)
+getPokemon(2)
   .then( ( pokemon ) => console.log({ pokemon }) )
   .catch( ( error ) => console.error('Error:', error) )
   .finally( () => console.log('Finished fetching Pokémon') );
