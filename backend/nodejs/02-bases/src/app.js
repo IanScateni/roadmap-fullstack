@@ -6,18 +6,18 @@ const { getUUID, getAge } = require('./plugins');
 const getPokemon = require('./js-fundation/06-promises');
 const { buildLogger } = require('./plugins');
 
-/* /getPokemon(2)
-  .then( ( pokemon ) => console.log({ pokemon }) )
-  .catch( ( error ) => console.error('Error:', error) )
-  .finally( () => console.log('Finished fetching Pokémon') ); */
 
-const logger = buildLogger('app.js');
+const logger = buildLogger('app');
 
 logger.log('Hola mundo!');
 
 logger.error('Esto es un error!');
 
 
+getPokemon(2)
+  .then( ( pokemon ) => console.log({ pokemon }) )
+  .catch( ( error ) => console.error('Error:', error) )
+  .finally( () => console.log('Finished fetching Pokémon') );
 
   // ! Referencia a la función factory
 // const makePerson = buildMakePerson({ getUUID, getAge });
