@@ -25,4 +25,5 @@ class ViewServiceProvider extends ServiceProvider
         view()->composer(['welcome'], CompanyComposer::class);
 
     }
+    
 }
