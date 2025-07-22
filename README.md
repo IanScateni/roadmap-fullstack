@@ -1,109 +1,83 @@
 # 🧠 Full Stack Development Roadmap
 
-Welcome to my personal Full Stack Developer roadmap. This repository contains practical exercises, code samples, and notes organized by technology area — from frontend to backend and essential development tools.
+Welcome to my structured and evolving **Full Stack Developer Roadmap**.  
+This repository documents my journey to becoming a **Full Stack Software Architect**, focusing on backend, frontend, architecture, databases, DevOps, and core CS principles.
 
-> ✅ This project is part of my journey toward becoming a **Full Stack**.
+> 🔧 Built following the `Architect Track` structure and principles.
 
 ---
 
-## 📁 Structure
+## 📁 Structure Overview
 
 ```
 roadmap/
-├── frontend/
-│   ├── html/
-│   │   └── 01-fundamentos/   
-│   ├── css/
-│   │   └── ResponsiveCardsNoMediaQueries/
-│   │   └── botonMenu/
-│   │   └── loadingAnimation/ 
-│   ├── javascript/
-│   │   └── BuscadorJS/
-│   │   └── CarritoDeCompras/
-│   │   └── EnviarMailJS/
-│   │   └── Criptomonedas/
-│   │   └── TodoListLocalStorage/   
-│   ├── typescript/
-│   ├── reactjs/
-│   │   └── portfolio/   
-│   └── vuejs/
-│   │   └── credit-card/   
-├── backend/
-│   ├── nodejs/
-│   │   └── 01-fundamentos/
-│   │   └── 02-bases
-│   │   └── express/
-│   │       └── travel-agency/   ← Full project with MVC, Sequelize, and Pug       
-│   ├── php/
-│   │   └── ejercicioCrud/  
-│   │   └── symfony/
-│   │   └── Laravel/  
-│   ├── python/
-│   │   └── django/
-│   ├── java/
-│   │   └── LaboratooryOne/   
-│   │   └── spring/
-│   ├── sql/
-│   └── nosql/
-└── common/
-    ├── git/
-    ├── docker/
-    └── linux/
+├── backend/        # Java, Node.js, PHP, Python, SQL, NoSQL
+├── frontend/       # HTML, CSS, JavaScript, React, TypeScript, Vue.js
+├── core/           # CS fundamentals: algorithms, OOP, design patterns, SOLID
+├── common/         # Dev tools: Git, Docker, Linux, AWS
+└── README.md
 ```
+
+---
+
+## 🎯 Objectives
+
+- Master the **full stack lifecycle** from development to deployment.
+- Apply **clean architecture**, **SOLID**, and **best practices** in all areas.
+- Document hands-on exercises, concepts, and practical mini-projects per topic.
+- Build a long-term reference to support my **transition to software architecture roles**.
 
 ---
 
 ## 🚀 Technologies & Tools
 
-- **Frontend:** HTML, CSS, JavaScript, TypeScript, ReactJS, VueJS
-- **Backend:** Node.js + Express, PHP + Symfony, PHP + Laravel, Python + Django, Java + Spring
-- **Databases:** SQL, NoSQL
-- **Dev Tools:** Docker, Git, Linux
+| Category     | Stack & Tools                                           |
+|--------------|----------------------------------------------------------|
+| Frontend     | HTML, CSS, JavaScript, TypeScript, React, Vue.js         |
+| Backend      | Node.js, Express, NestJS, PHP, Laravel, Python, Java     |
+| Databases    | MySQL, PostgreSQL, MongoDB                               |
+| Dev Tools    | Docker, Git, Linux, VSCode, Postman                      |
+| Cloud & Infra| AWS (EC2, S3), CI/CD (GitHub Actions, Railway, etc.)     |
 
 ---
 
-## 🎯 Goals
+## 📊 Progress Overview
 
-- Build a strong practical foundation in Full Stack development
+| Section      | Area             | Status        |
+|--------------|------------------|---------------|
+| Frontend     | JS, TS, React    | ✅ In Progress |
+| Backend      | Node, Java, PHP  | ✅ In Progress |
+| Dev Tools    | Git, Docker      | ✅ In Progress |
+| Core CS      | SOLID, OOP       | ✅ In Progress |
+| Architecture | Clean Arch       | ✅ In Progress |
 
----
-
-## 📊 Progress Tracker
-
-| Area        | Technology    | Status        |
-|-------------|---------------|---------------|
-| Frontend    | HTML          | ✅ In Progress |
-| Frontend    | CSS           | ✅ In Progress |
-| Frontend    | JavaScript    | ✅ In Progress |
-| Backend     | Node.js       | ✅ In Progress |
-| Backend     | PHP/Symfony   | ✅ In Progress |
-| Backend     | PHP/Laravel   | ⏳ Planned     |
-| Backend     | Python/Django | ⏳ Planned     |
-| Backend     | Java/Spring   | ✅ In Progress |
-| Databases   | SQL/NoSQL     | ⏳ Planned     |
-| Tools       | Git           | ⏳ Planned     |
-| Tools       | Docker        | ⏳ Planned     |
-| Tools       | Linux         | ⏳ Planned     |
-
-> ✅ = In progress · ⏳ = Planned · 🟩 = Completed
+> ✅ In Progress · ⏳ Planned · 🟩 Completed
 
 ---
 
-## 🧩 Related Projects
+## 📌 Notes
 
-You can explore more advanced architectural projects in my companion repo:  
-🔗 [architecture-projects](https://github.com/IanScateni/architecture-projects)
+- This is a personal hands-on journey. Every folder contains **real code**, **notes**, or **mini-projects**.
+- Each technology has a `README.md` with covered topics and structure.
+- Aligned with my professional roadmap toward becoming a **Full Stack Software Architect**.
 
 ---
 
-## 🧑‍💻 Author
+## 🔗 Related Repositories
 
-**Ian Scateni**  
-Software Engineer | Future Software Architect  
-🔗 [LinkedIn](https://linkedin.com/in/IanScateni) · 🌐 [Portfolio]([https://ianscateni.com](https://github.com/IanScateni))
+- [`portfolio-projects`](https://github.com/IanScateni/portfolio-projects) – Featured frontend/backend apps
+- [`architecture-projects`](https://github.com/IanScateni/architecture-projects) – Clean architecture, DDD, and advanced patterns
+
+---
+
+## 👨‍💻 Author
+
+**Ian Scateni** – Software Engineer & Full Stack Architect (in progress)  
+🔗 [LinkedIn](https://linkedin.com/in/IanScateni)  
+🌐 [Portfolio](https://ianscateni.com)
 
 ---
 
 ## 📜 License
 
-This project is licensed under the MIT License.
+This project is open-source and licensed under the MIT License.
