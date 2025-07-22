@@ -1,24 +1,46 @@
-# 📘 Java
+# 📘 Java – Backend
 
-This folder contains my personal practice, notes, and experiments related to **Java**.
+This folder contains hands-on practice, notes, and projects built with **Java**, covering everything from language fundamentals to real-world backend applications using frameworks like Spring Boot.
 
-## 🧠 Goals
+## 🧠 Objectives
 
-- Understand the fundamentals of Java
-- Build hands-on examples and small exercises
-- Prepare for real-world applications and integrations
+- Master Java syntax, OOP, and core features
+- Apply advanced concepts such as interfaces, streams, exceptions
+- Build RESTful APIs using the Spring ecosystem
+- Understand backend design principles and architecture patterns
 
-## 📂 Folder Structure (example)
+## 📁 Folder Structure
 
 ```
 backend/java/
-├── 01-basic-concepts/
-├── 02-exercises/
-└── README.md
+├── basic/                 # Syntax, data types, control structures
+├── advanced/              # OOP, interfaces, collections, error handling
+├── frameworks/
+│   └── spring/            # Spring Boot, MVC, REST APIs, security
+├── projects/              # Real-world Java backend projects
+└── README_backend_java.md
+```
+
+## 🚀 How to Use
+
+Most examples can be run in IntelliJ IDEA or VSCode. If using Spring Boot, execute with Maven or Gradle:
+
+```bash
+./mvnw spring-boot:run
+```
+
+Or:
+
+```bash
+./gradlew bootRun
 ```
 
 ## 📌 Notes
 
-- This section is part of the [Full Stack Roadmap](../..) project.
-- Content here is continuously evolving as I learn and improve.
+- This section is part of my [Architect Track](../../../) journey toward becoming a Full Stack Software Architect.
+- All code is written for learning purposes and follows clean code practices where possible.
+- Content evolves as I gain experience in real projects and architectural principles.
 
+---
+
+📄 Authored and maintained by **Ian Scateni**

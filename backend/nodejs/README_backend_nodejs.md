@@ -1,24 +1,45 @@
-# 📘 Nodejs
+# 🟩 Node.js
 
-This folder contains my personal practice, notes, and experiments related to **Nodejs**.
+This folder contains all learning content, exercises, and projects related to **Node.js** – the JavaScript runtime built on Chrome's V8 engine. It serves as the foundation for modern backend development using JavaScript and TypeScript.
 
-## 🧠 Goals
+## 🎯 Goals
 
-- Understand the fundamentals of Nodejs
-- Build hands-on examples and small exercises
-- Prepare for real-world applications and integrations
+- Understand Node.js fundamentals and runtime behavior
+- Practice backend logic with and without frameworks
+- Learn how to build RESTful APIs and real-world backend services
+- Apply architecture patterns such as MVC and Clean Architecture
+- Develop projects using Express and NestJS frameworks
+- Integrate Node.js with databases, authentication, and DevOps tools
 
-## 📂 Folder Structure (example)
+## 📁 Folder Structure
 
 ```
-backend/nodejs/
-├── 01-basic-concepts/
-├── 02-exercises/
+nodejs/
+├── basic/                  # Fundamentals: modules, fs, events, http, npm
+├── advanced/               # Asynchronous programming, streams, clusters
+├── frameworks/             # Express and NestJS mini-projects
+│   ├── express/
+│   └── nest/
+├── projects/               # Complete applications with backend logic
+├── typescript/             # Node.js using TypeScript
 └── README.md
 ```
 
+Each subfolder contains its own `README.md` for more detailed learning goals and examples.
+
+## 🔧 Tech & Tools
+
+- Node.js LTS (v18+)
+- npm & npx
+- Express.js
+- NestJS
+- TypeScript
+- dotenv, nodemon, axios, cors, and other community packages
+
 ## 📌 Notes
 
-- This section is part of the [Full Stack Roadmap](../..) project.
-- Content here is continuously evolving as I learn and improve.
+This Node.js section is part of my `Architect Track` and evolves constantly with new examples, exercises, and backend services as I grow.
 
+---
+
+📄 Maintained by **Ian Scateni** – Node.js professional backend track.

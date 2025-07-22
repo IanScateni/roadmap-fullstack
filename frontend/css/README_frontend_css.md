@@ -12,8 +12,9 @@ This folder contains my personal practice, notes, and experiments related to **C
 
 ```
 frontend/css/
-├── 01-basic-concepts/
-├── 02-exercises/
+├── basic/
+├── advanced/
+├── projects/
 └── README.md
 ```
 
