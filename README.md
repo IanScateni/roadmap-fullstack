@@ -45,11 +45,11 @@ roadmap/
 
 | Section      | Area             | Status        |
 |--------------|------------------|---------------|
-| Frontend     | JS, TS, React    | ✅ In Progress |
-| Backend      | Node, Java, PHP  | ✅ In Progress |
-| Dev Tools    | Git, Docker      | ✅ In Progress |
-| Core CS      | SOLID, OOP       | ✅ In Progress |
-| Architecture | Clean Arch       | ✅ In Progress |
+| Frontend     | JavaScript, TypeScript, React | ✅ In Progress |
+| Backend      | Node.js, Java, PHP             | ✅ In Progress |
+| Dev Tools    | Git, Docker, CI/CD             | ✅ In Progress |
+| Core CS      | SOLID Principles, OOP          | ✅ In Progress |
+| Architecture | Clean Architecture, DDD        | ✅ In Progress |
 
 > ✅ In Progress · ⏳ Planned · 🟩 Completed
 
