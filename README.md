@@ -72,7 +72,7 @@ roadmap/
 
 ## 👨‍💻 Author
 
-**Ian Scateni** – Software Engineer & Full Stack Architect (in progress)  
+**Ian Scateni** – Fullstack Developer | Software Engineer | Software Architect
 🔗 [LinkedIn](https://linkedin.com/in/IanScateni)  
 🌐 [Portfolio](https://ianscateni.com)
 
