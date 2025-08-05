@@ -1,0 +1,43 @@
+# Symfony
+/var/
+/vendor/
+/.env.local
+.env.test.local
+/.env
+/public/bundles/
+/node_modules/
+/.pnp
+.pnp.js
+
+# Logs
+/log/
+/var/log/
+/*.log
+
+# Cache
+/var/cache/
+/var/tmp/
+
+# Doctrine
+/migrations/*
+
+# PHPUnit
+/phpunit.xml
+/phpunit.xml.dist
+/.phpunit.result.cache
+/tests/.phpunit.result.cache
+
+# Docker
+docker-compose.override.yml
+/.docker
+.env.docker.local
+
+# IDEs
+/.idea/
+/*.sublime-project
+/.vscode/
+/*.swp
+
+# OS files
+.DS_Store
+Thumbs.db

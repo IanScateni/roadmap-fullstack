@@ -1,0 +1,22 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    PruebaRRHH\:
+        resource: '../src/'
+        exclude:
+            - '../src/Kernel.php'
+            - '../src/Domain/**/Event/'
+            - '../src/Domain/**/Exception/'
+
+    PruebaRRHH\Domain\Employee\EmployeeRepository:
+        alias: PruebaRRHH\Infrastructure\Persistence\Doctrine\DoctrineEmployeeRepository
+
+    PruebaRRHH\Domain\Shared\EventBus\DomainEventBus:
+        alias: PruebaRRHH\Infrastructure\EventBus\SimpleSymfonyEventBus
+
+    PruebaRRHH\Application\Employee\EventListener\LogEmployeeStatusChanged:
+        tags:
+            - { name: kernel.event_listener, event: PruebaRRHH\Domain\Employee\Event\EmployeeStatusChanged, method: onEmployeeStatusChanged }

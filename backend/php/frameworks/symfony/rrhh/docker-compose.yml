@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  app:
+    image: php:8.3-cli
+    container_name: prueba_rrhh_app
+    volumes:
+      - .:/var/www/html
+    working_dir: /var/www/html
+    depends_on:
+      - db
+    command: tail -f /dev/null
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  db:
+    image: postgres:16
+    container_name: prueba_rrhh_db
+    environment:
+      POSTGRES_DB: prueba_rrhh
+      POSTGRES_USER: symfony
+      POSTGRES_PASSWORD: symfony
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
