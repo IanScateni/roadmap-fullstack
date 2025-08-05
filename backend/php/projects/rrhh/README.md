@@ -67,7 +67,7 @@ docker exec -it prueba_rrhh_app php bin/console doctrine:schema:create
 ## ✅ Ejecutar tests
 
 ```bash
-docker exec -it prueba_rrhh_app ./vendor/bin/phpunit --testdox
+docker exec -it prueba_rrhh_app ./vendor/bin/phpunit -testdox
 ```
 
 ---
