@@ -16,6 +16,7 @@ This folder introduces the basic syntax and features of **TypeScript**, focused 
 ```
 basic/
 ├── types.ts
+├── functions.ts
 ├── interfaces.ts
 ├── enums.ts
 ├── dom-manipulation.ts

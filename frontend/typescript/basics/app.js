@@ -1,36 +1,35 @@
 "use strict";
 (() => {
     // Tipos
-    const batman = 'Bruce';
-    const superman = 'Clark';
-    const existe = false;
-    // Tuplas
-    const parejaHeroes = [batman, superman];
-    const villano = ['Lex Lutor', 5, true];
-    // Arreglos
-    const aliados = ['Mujer Maravilla', 'Acuaman', 'San', 'Flash'];
-    //Enumeraciones
-    let Fuerza;
-    (function (Fuerza) {
-        Fuerza[Fuerza["Acuaman"] = 0] = "Acuaman";
-        Fuerza[Fuerza["Batman"] = 1] = "Batman";
-        Fuerza[Fuerza["Flash"] = 5] = "Flash";
-        Fuerza[Fuerza["Superman"] = 100] = "Superman";
-    })(Fuerza || (Fuerza = {}));
-    const fuerzaFlash = Fuerza.Flash;
-    const fuerzaSuperman = Fuerza.Superman;
-    const fuerzaBatman = Fuerza.Batman;
-    const fuerzaAcuaman = Fuerza.Acuaman;
-    // Retorno de funciones
-    function activar_batiseñal() {
-        return 'activada';
-    }
-    function pedir_ayuda() {
-        console.log('Auxilio!!!');
-    }
-    // Aserciones de Tipo
-    const poder = '100';
-    const largoDelPoder = poder.length;
-    console.log(largoDelPoder);
+    // const batman: string = 'Bruce';
+    // const superman: string = 'Clark';
+    // const existe: boolean = false;
+    // // Tuplas
+    // const parejaHeroes: [string, string ] = [batman,superman];
+    // const villano: [string, number, boolean] = ['Lex Lutor',5,true];
+    // // Arreglos
+    // const aliados: string[] = ['Mujer Maravilla','Acuaman','San', 'Flash'];
+    // //Enumeraciones
+    // enum Fuerza {
+    //   Acuaman = 0,
+    //   Batman = 1,
+    //   Flash = 5,
+    //   Superman = 100  
+    // }
+    // const fuerzaFlash: Fuerza = Fuerza.Flash;
+    // const fuerzaSuperman: Fuerza = Fuerza.Superman;
+    // const fuerzaBatman: Fuerza = Fuerza.Batman;
+    // const fuerzaAcuaman: Fuerza =  Fuerza.Acuaman;
+    // // Retorno de funciones
+    // function activar_batiseñal() : string {
+    //   return 'activada';
+    // }
+    // function pedir_ayuda():void {
+    //   console.log('Auxilio!!!');
+    // }
+    // // Aserciones de Tipo
+    // const poder: any = '100';
+    // const largoDelPoder:number = (poder as string).length;
+    // console.log( largoDelPoder );
 })();
 //# sourceMappingURL=app.js.map
