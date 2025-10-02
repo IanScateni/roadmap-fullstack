@@ -1,7 +1,7 @@
 (() => {
 
    type Hero = {
-    name:string;
+    name: string;
     age?: number; 
     powers: string[];
     getName?: () => string;
