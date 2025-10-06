@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
     // File Layout
-    // "rootDir": "./src",
-    // "outDir": "./dist",
-
+    // "rootDir": "./",
+    // "outDir": "./",
+    
     // Environment Settings
-    "module": "ESNext",
-    "target": "ESNext",
+    "module": "amd",
+    "target": "es6",
+    "outFile": "./main.js",
     "types": [],
 
     // Other Outputs
@@ -21,9 +22,12 @@
     // Recommended Options
     "strict": true,
     "jsx": "react-jsx",
-    "verbatimModuleSyntax": true,
-    "isolatedModules": true,
+    // "verbatimModuleSyntax": true,
+    // "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
     "skipLibCheck": true
-  }
+  },
+  "include": [
+    "clases"
+  ] 
 }
