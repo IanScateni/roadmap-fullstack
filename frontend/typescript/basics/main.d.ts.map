@@ -1,1 +1,1 @@
-{"version":3,"file":"main.d.ts","sourceRoot":"","sources":["clases/abstract.ts","clases/basica.ts","clases/extends.ts","clases/private-constructor.ts"],"names":[],"mappings":""}
+{"version":3,"file":"main.d.ts","sourceRoot":"","sources":["interfaces/basics.ts","interfaces/clases.ts","interfaces/complejas.ts","interfaces/funciones.ts"],"names":[],"mappings":""}
