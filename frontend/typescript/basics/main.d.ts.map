@@ -1,1 +1,1 @@
-{"version":3,"file":"main.d.ts","sourceRoot":"","sources":["interfaces/basics.ts","interfaces/clases.ts","interfaces/complejas.ts","interfaces/funciones.ts"],"names":[],"mappings":""}
+{"version":3,"file":"main.d.ts","sourceRoot":"","sources":["nameSpace/validation.ts"],"names":[],"mappings":"AAAA,kBAAU,WAAW,CAAC;IAEb,MAAM,YAAY,GAAK,MAAM,MAAM,KAAI,OAE7C,CAAA;IAEM,MAAM,YAAY,GAAK,QAAQ,IAAI,KAAI,OAI7C,CAAA;CAEF"}

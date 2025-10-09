@@ -24,7 +24,6 @@ This folder contains examples, exercises, and small projects focused on using **
 ```
 typescript/
 ├── basic/           # TypeScript syntax and standalone frontend logic
-├── advanced/        # Generics, modules, API typing, integration with frameworks
 └── README.md
 ```
 

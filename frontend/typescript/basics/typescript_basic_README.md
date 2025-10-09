@@ -15,22 +15,23 @@ This folder introduces the basic syntax and features of **TypeScript**, focused 
 
 ```
 basic/
-├── types.ts
-├── functions.ts
-├── interfaces.ts
-├── enums.ts
-├── dom-manipulation.ts
+├── types
+├── functions
+├── interfaces
+├── enums
+├── ES6
+├── nameSpaces
+├── Objects
+├── class
 └── README.md
 ```
 
 ## 🚀 How to Run
 
-You can run each file using `ts-node`, or compile it to JS:
+You can run each file using `tsc -w`, or compile it to JS:
 
 ```bash
-npx ts-node types.ts
-# or
-tsc && node dist/types.js
+tsc -w
 ```
 
 ## 📌 Notes

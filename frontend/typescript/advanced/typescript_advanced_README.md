@@ -16,17 +16,17 @@ This folder contains more complex and real-world TypeScript topics that go beyon
 
 ```
 advanced/
-├── generics.ts
-├── utility-types.ts
-├── module-example.ts
-├── api-response-typing.ts
+├── generics
+├── decorators
+├── module-example
+├── API Response Typing & Integration Layer
 └── README.md
 ```
 
 ## 🚀 How to Run
 
 ```bash
-npx ts-node advanced/generics.ts
+tsc -w
 ```
 
 You may also set up a bundler (like Vite or Webpack) for browser testing.

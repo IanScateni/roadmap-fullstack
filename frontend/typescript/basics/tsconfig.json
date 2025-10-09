@@ -28,6 +28,6 @@
     "skipLibCheck": true
   },
   "include": [
-    "interfaces"
+    "nameSpace"
   ] 
 }
