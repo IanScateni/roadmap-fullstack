@@ -1,0 +1,12 @@
+{
+  "name": "solid",
+  "version": "1.0.0",
+  "description": "Este repositorio contiene los ejemplos prácticos desarrollados en el curso **\"Principios SOLID\"** dictado por **Fernando Herrera** (Udemy). Forma parte del plan formativo `Architect Track`, Fase 1.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
