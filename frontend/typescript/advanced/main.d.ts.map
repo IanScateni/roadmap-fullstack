@@ -1,0 +1,1 @@
+{"version":3,"file":"main.d.ts","sourceRoot":"","sources":["generics/generics.ts","generics/get-pokemon.ts"],"names":[],"mappings":"AACA,QAAA,MAAM,WAAW,GAAK,UAAU,GAAG,SAIlC,CAAA;AAED,iBAAS,eAAe,CAAC,CAAC,EAAG,UAAU,CAAC,QAIvC;AAED,QAAA,MAAM,oBAAoB,GAAI,CAAC,EAAG,UAAU,CAAC,SAA0B,CAAC"}
